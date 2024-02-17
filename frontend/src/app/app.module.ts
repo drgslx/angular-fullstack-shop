@@ -23,7 +23,7 @@ import { BannerComponent } from './components/partials/banner/banner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
     provideClientHydration()

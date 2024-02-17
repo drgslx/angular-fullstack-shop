@@ -9,5 +9,8 @@ export class ProductService {
 
   constructor() { }
 
-  
+  getAll(): Product[] {
+    return sample_products;
+  }
 }
+
