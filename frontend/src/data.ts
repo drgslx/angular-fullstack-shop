@@ -1,12 +1,12 @@
 import { Product } from "./app/shared/models/Product";
 
-export const sample_foods: Product[] = [
+export const sample_products: Product[] = [
     {
       id: 1 ,
       name: 'Geanta verde',
       color: 'green',
       price: 10,
-      favorite: true,
+      favorite: false,
       stars: 4.5,
       imageUrl: 'assets/products/geanta-1.jpg',
       tags: ['Geanta', 'Verde', 'S'],
@@ -17,7 +17,7 @@ export const sample_foods: Product[] = [
         name: 'Rucsac Rosu',
         color: 'red',
         price: 15,
-        favorite: true,
+        favorite: false,
         stars: 4.5,
         imageUrl: 'assets/products/geanta-2.jpg',
         tags: ['Rucsac', 'Rosu', 'M'],
