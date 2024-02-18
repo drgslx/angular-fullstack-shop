@@ -1,0 +1,14 @@
+<ul>
+    <li *ngFor="let toy of toys">
+        <a routerLink="product/{{ toy.id }}">{{ toy.name }}
+            <img [src]="toy.imageUrl" [alt]="toy.name"/>
+            <div class="content">
+                <div class="size">Marime: {{ toy.size }}</div>
+            </div>
+            <div class="product-item-footer">
+                <span>tags: {{ toy.tags }}</span>
+                <div><span>{{ toy.price | currency }}</span></div>
+            </div>
+        </a>
+    </li>
+</ul>

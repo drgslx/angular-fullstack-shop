@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
-import { ProductsComponent } from '../app/components/pages/products/products.component';
+import { ProductsComponent } from './components/pages/products/products.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { HowToComponent } from './components/pages/how-to/how-to.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { ToysComponent } from './components/pages/toys/toys.component';
+
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:"products", component: ProductsComponent},
+  {path:"toys", component: ToysComponent},
   {path:"about", component: AboutComponent},
   {path:'how-to', component: HowToComponent},
   {path:'contact', component: ContactComponent},

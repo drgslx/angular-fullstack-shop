@@ -51,12 +51,13 @@ a span {
     font-size: 0.9rem;
 }
 
-.menu-container{
-    position: relative;
-}
+
 .container-left{ 
     display: flex;
     align-items: center;
+}
+.menu-container{
+    position: relative;
 }
 .menu {
     position: absolute;
@@ -67,6 +68,24 @@ a span {
 
 .menu-container:hover .menu {
     display: block;
+}
+
+.products {
+    position:relative;
+    z-index: 1;
+    background-color: whitesmoke;
+    display: none;
+}
+
+.products:hover{
+    display: block;
+}
+
+
+
+.products-container:hover .products {
+    display: inline;
+    background-color: white;
 }
 
 .menu a {

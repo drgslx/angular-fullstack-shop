@@ -9,6 +9,8 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { HowToComponent } from './components/pages/how-to/how-to.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { BannerComponent } from './components/partials/banner/banner.component';
+import { ToysComponent } from './components/pages/toys/toys.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { BannerComponent } from './components/partials/banner/banner.component';
     AboutComponent,
     HowToComponent,
     ContactComponent,
-    BannerComponent
+    BannerComponent,
+    ToysComponent
   ],
   imports: [
     BrowserModule,

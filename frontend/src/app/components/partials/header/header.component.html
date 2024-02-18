@@ -4,7 +4,15 @@
         <div class="container-left">
             <a routerLink="/" class="logo">Nane-Alexa</a>
             <a routerLink="/about">Despre Noi</a>
-            <a routerLink="/products" routerLinkActive="active">Produse</a>
+
+            <div class="products-container">
+                <a>Produse</a>
+                <div class="products">
+                    <a routerLink="/products" routerLinkActive="active">Genti</a>
+                    <a routerLink="/toys" >Jucarii</a>
+                </div>
+            </div>
+            
             <a routerLink="/how-to">Cum Comand</a>
             <a routerLink="/contact">Contact</a>
         </div>
@@ -12,6 +20,7 @@
             <nav>
                 <ul>
                     <li><a routerLink="/login'">Login</a></li>
+
                     <li class="menu-container">
                             <a routerLink="/dashboard">Dragosss</a>
                             <div class="menu">

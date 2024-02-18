@@ -3,8 +3,9 @@ ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 2rem;
+    padding: 1rem;
   }
   
   li {
@@ -14,7 +15,7 @@ ul {
     text-align: center;
     box-shadow:  0 0 1.5rem salmon;
     border-radius: 1.5rem;
-   
+
   }
 
   li:hover{
@@ -24,16 +25,18 @@ ul {
   }
   
   li a {
-    height: 22.5rem;
+    height: max-content;
     width: 20rem;
     border: 1px solid whitesmoke;
     border-radius: 1rem;
     margin: 0.5rem;
+    color: black;
+    padding: 1rem;
   }
   
   li img {
     max-width: 100%;
-    height: auto;
+    height: 20rem;
   }
   li img:hover{
     opacity: 0.8;
