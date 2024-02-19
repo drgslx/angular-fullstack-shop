@@ -1,0 +1,44 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin-top:3rem;
+    margin-bottom: 1.5rem;
+}
+
+input{
+    border-radius: 10rem 0 0 10rem;;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    border: 0;
+    padding-left: 1rem;
+    color: black;
+    outline: none;
+    border: 2px solid salmon;
+    transition:ease-in-out 0.5s;
+}
+
+input:hover{
+    border: 3px solid salmon;
+    
+}
+button {
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+    padding: 0 1rem;
+    color: black;
+    outline: none;
+    border: 2px solid salmon;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 1rem; /* Adjusted border-radius */
+  }
+
+  button:hover {
+    border: 3px solid salmon;
+    animation: backwards;
+    transition: ease-in-out 1s;
+  }

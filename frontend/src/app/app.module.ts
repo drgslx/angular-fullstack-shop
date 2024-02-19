@@ -13,6 +13,7 @@ import { ToysComponent } from './components/pages/toys/toys.component';
 import { FooterComponent } from './components/partials/footer/footer.component';
 import { SearchComponent } from './components/partials/search/search.component';
 import { SearchToyComponent } from './components/partials/search-toy/search-toy.component';
+import { ProductsLandingPageComponent } from './components/pages/products-landing-page/products-landing-page.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { SearchToyComponent } from './components/partials/search-toy/search-toy.
     FooterComponent,
     SearchComponent,
     SearchToyComponent,
+    ProductsLandingPageComponent,
   ],
   imports: [
     BrowserModule,

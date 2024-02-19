@@ -1,5 +1,6 @@
 import {  Bags } from "./app/shared/models/Products";
 import { Toys } from "./app/shared/models/Products";
+import { Tag } from "./app/shared/models/Tag";
 
 export const sample_products: Bags[] = [
     {
@@ -125,4 +126,19 @@ export const sample_products: Bags[] = [
         tags: ['Papusa', 'Pisica', 'M'],
         size: 'M'
       },
+  ]
+
+  export const sample_tags:Tag[] = [
+    {
+      color: 'red',
+      size: 'M'
+    },
+    {
+      color: 'green',
+      size: 'L'
+    },
+    {
+      color: 'blue',
+      size: 'S'
+    },
   ]

@@ -2,6 +2,7 @@ header {
     position: relative;
     background-color: whitesmoke;
     border-bottom: 2px solid salmon;
+    width: 100%;
 }
 
 a {

@@ -1,1 +1,6 @@
-<input #s type="text" placeholder="Cauta..." (keyup.enter)="handleSearch(s.value, s.value.toLowerCase().includes('jucarie'))" [value]="s.value.includes('jucarie') ? toyTerm : searchTerm">
+<div>
+    <input #s type="text" placeholder="Cauta Produse" 
+(change)="handleSearch(s.value, s.value.toLowerCase().includes('jucarie'))" 
+[value]="s.value.includes('jucarie') ? toyTerm : searchTerm">
+<button (click)="handleSearch(s.value, s.value.toLowerCase().includes('jucarie'))">Cauta</button>
+</div>
