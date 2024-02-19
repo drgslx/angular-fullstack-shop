@@ -1,1 +1,1 @@
-<p>search works!</p>
+<input #s type="text" placeholder="Cauta..." (keyup.enter)="handleSearch(s.value, s.value.toLowerCase().includes('jucarie'))" [value]="s.value.includes('jucarie') ? toyTerm : searchTerm">

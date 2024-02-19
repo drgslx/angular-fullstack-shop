@@ -117,7 +117,7 @@ export const sample_products: Bags[] = [
   export const sample_products_toys: Toys[]=[
       {
         id: 1 ,
-        name: 'Papusa Pisica',
+        name: 'Jucarie Pisica',
         price: 10,
         favorite: false,
         stars: 4.5,

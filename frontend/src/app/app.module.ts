@@ -12,6 +12,7 @@ import { BannerComponent } from './components/partials/banner/banner.component';
 import { ToysComponent } from './components/pages/toys/toys.component';
 import { FooterComponent } from './components/partials/footer/footer.component';
 import { SearchComponent } from './components/partials/search/search.component';
+import { SearchToyComponent } from './components/partials/search-toy/search-toy.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { SearchComponent } from './components/partials/search/search.component';
     BannerComponent,
     ToysComponent,
     FooterComponent,
-    SearchComponent
+    SearchComponent,
+    SearchToyComponent,
   ],
   imports: [
     BrowserModule,
