@@ -10,6 +10,8 @@ import { HowToComponent } from './components/pages/how-to/how-to.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
 import { BannerComponent } from './components/partials/banner/banner.component';
 import { ToysComponent } from './components/pages/toys/toys.component';
+import { FooterComponent } from './components/partials/footer/footer.component';
+import { SearchComponent } from './components/partials/search/search.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { ToysComponent } from './components/pages/toys/toys.component';
     HowToComponent,
     ContactComponent,
     BannerComponent,
-    ToysComponent
+    ToysComponent,
+    FooterComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

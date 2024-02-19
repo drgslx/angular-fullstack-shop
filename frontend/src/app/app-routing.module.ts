@@ -11,6 +11,8 @@ import { ToysComponent } from './components/pages/toys/toys.component';
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:"products", component: ProductsComponent},
+  {path:"search/:searchTerm", component: ProductsComponent},
+  {path:"searchToy/:toyTerm", component: ToysComponent},
   {path:"toys", component: ToysComponent},
   {path:"about", component: AboutComponent},
   {path:'how-to', component: HowToComponent},
