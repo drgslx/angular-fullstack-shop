@@ -11,7 +11,7 @@ export const sample_products: Bags[] = [
       favorite: false,
       stars: 4.5,
       imageUrl: 'assets/images/geanta-1.jpg',
-      tags: ['Geanta', 'Verde', 'S'],
+      tags: ['Geanta', 'Verde'],
       size: 'S'
     },
     {
@@ -22,7 +22,7 @@ export const sample_products: Bags[] = [
         favorite: false,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-2.jpg',
-        tags: ['Rucsac', 'Rosu', 'M'],
+        tags: ['Rucsac', 'Rosu'],
         size: 'M'
       },
       {
@@ -33,7 +33,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-3.jpg',
-        tags: ['Geanta', 'Albastra', 'S'],
+        tags: ['Geanta', 'Albastra'],
         size: 'S'
       },
       {
@@ -44,7 +44,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-4.jpg',
-        tags: ['Geanta', 'Violet', 'S'],
+        tags: ['Geanta', 'Violet'],
         size: 'S'
       },
       {
@@ -55,7 +55,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-5.jpg',
-        tags: ['Rucsac', 'Portocaliu', 'M'],
+        tags: ['Rucsac', 'Portocaliu'],
         size: 'M'
       },
       {
@@ -66,7 +66,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-6.jpg',
-        tags: ['Genta', 'Rosie', 'M'],
+        tags: ['Genta', 'Rosie'],
         size: 'M'
       },
       {
@@ -77,7 +77,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-7.jpg',
-        tags: ['Rucsac', 'Albastru', 'S'],
+        tags: ['Rucsac', 'Albastru'],
         size: 'S'
       },
       {
@@ -88,7 +88,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-8.jpg',
-        tags: ['Rucsac', 'Negru', 'M'],
+        tags: ['Rucsac', 'Negru'],
         size: 'M'
       },
       {
@@ -99,7 +99,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-9.jpg',
-        tags: ['Rosu', 'Rosu', 'M'],
+        tags: ['Rosu', 'Rosu'],
         size: 'M'
       },
       {
@@ -110,7 +110,7 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-10.jpg',
-        tags: ['Geanta', 'Portocaliu', 'S'],
+        tags: ['Geanta', 'Portocaliu'],
         size: 'S'
       },
   ]
@@ -129,16 +129,14 @@ export const sample_products: Bags[] = [
   ]
 
   export const sample_tags:Tag[] = [
-    {
-      color: 'red',
-      size: 'M'
-    },
-    {
-      color: 'green',
-      size: 'L'
-    },
-    {
-      color: 'blue',
-      size: 'S'
-    },
+    {color: 'verde'},
+    {color: 'rosu'},
+    {color: 'albastru'},
+    {color: 'violet'},
+    {color: 'portocaliu'},
+    {color: 'negru'},
+    {color: 'albastru'},
+    {color: 'negru'},
+    {color: 'rosu'},
+    {color: 'portocaliu'},
   ]
