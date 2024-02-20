@@ -15,6 +15,7 @@ const routes: Routes = [
   {path:"search/:searchTerm", component: ProductsComponent},
   {path:"searchToy/:toyTerm", component: ToysComponent},
   {path:"products/:id", component: ProductsComponent},
+  {path:"tag/:tag", component: ProductsComponent},
   {path:"products-landing-page", component: ProductsLandingPageComponent},
   {path:"toys", component: ToysComponent},
   {path:"about", component: AboutComponent},

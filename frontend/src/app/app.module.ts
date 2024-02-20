@@ -14,6 +14,7 @@ import { FooterComponent } from './components/partials/footer/footer.component';
 import { SearchComponent } from './components/partials/search/search.component';
 import { SearchToyComponent } from './components/partials/search-toy/search-toy.component';
 import { ProductsLandingPageComponent } from './components/pages/products-landing-page/products-landing-page.component';
+import { TagsComponent } from './components/partials/tags/tags.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ProductsLandingPageComponent } from './components/pages/products-landin
     SearchComponent,
     SearchToyComponent,
     ProductsLandingPageComponent,
+    TagsComponent,
   ],
   imports: [
     BrowserModule,
