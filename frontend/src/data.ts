@@ -129,7 +129,7 @@ export const sample_products: Bags[] = [
   ]
 
   export const sample_tags:Tag[] = [
-    {color: 'Toate Culorile', count: 10},
+    {color: 'Toate', count: 10},
     {color: 'verde', count: 1},
     {color: 'rosu', count: 2},
     {color: 'albastru', count: 2},

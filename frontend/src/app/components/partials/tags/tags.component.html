@@ -1,1 +1,6 @@
-<p>tags works!</p>
+<div *ngIf="tags">
+    <h2>Culori</h2>
+    <a *ngFor="let tag of tags" routerLink="/tag/{{tag.color}}">
+        {{tag.color}}({{tag.count}})
+    </a>
+</div>

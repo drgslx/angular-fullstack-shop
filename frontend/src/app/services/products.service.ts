@@ -28,7 +28,7 @@ export class ProductService {
   }
 
   getAllBagsByTag(tag:string): Bags[] {
-    return tag === "Toate culorile" ? 
+    return tag === "Toate" ? 
       this.getAll() :
       this.getAll().filter(product => product.tags?.includes(tag));
   }
