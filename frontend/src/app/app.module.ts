@@ -15,6 +15,8 @@ import { SearchComponent } from './components/partials/search/search.component';
 import { SearchToyComponent } from './components/partials/search-toy/search-toy.component';
 import { ProductsLandingPageComponent } from './components/pages/products-landing-page/products-landing-page.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
+import { ProductsPageComponent } from './components/pages/products-page/products-page.component';
+import { ToysPageComponent } from './components/pages/toys-page/toys-page.component';
 
 
 @NgModule({
@@ -33,6 +35,8 @@ import { TagsComponent } from './components/partials/tags/tags.component';
     SearchToyComponent,
     ProductsLandingPageComponent,
     TagsComponent,
+    ProductsPageComponent,
+    ToysPageComponent,
   ],
   imports: [
     BrowserModule,

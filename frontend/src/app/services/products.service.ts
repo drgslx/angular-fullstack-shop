@@ -23,6 +23,9 @@ export class ProductService {
   getAllToysBySearchName(toyTerm: string): Toys[] {
     return this.getToys().filter(toy => toy.name.toLowerCase().includes(toyTerm.toLowerCase()));
   }
+  getToysById(productId:number): Toys {
+    return this.getToys().find(toy => toy.id == productId)??new Toys();
+  }
   getAllTags(): Tag[] {
     return sample_tags;
   }
@@ -31,6 +34,10 @@ export class ProductService {
     return tag === "Toate" ? 
       this.getAll() :
       this.getAll().filter(product => product.tags?.includes(tag));
+  }
+
+  getBagsById(productId:number): Bags {
+    return this.getAll().find(product => product.id == productId)??new Bags();
   }
 }
 

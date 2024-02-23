@@ -66,12 +66,12 @@ export const sample_products: Bags[] = [
         favorite: true,
         stars: 4.5,
         imageUrl: 'assets/images/geanta-6.jpg',
-        tags: ['Genta', 'red'],
+        tags: ['Genta', 'black'],
         size: 'M'
       },
       {
         id: 7,
-        name: 'Rucsac blue',
+        name: 'Rucsac albastru',
         color: 'blue',
         price: 15,
         favorite: true,

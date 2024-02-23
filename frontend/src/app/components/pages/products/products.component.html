@@ -2,13 +2,13 @@
 
 <ul>
     <li *ngFor="let product of products">
-        <a routerLink="products/{{ product.id }}">{{ product.name }}
+        <a [routerLink]="['/products', product.id]" routerLinkActive="product.id">
+            {{ product.name }}
             <img [src]="product.imageUrl" [alt]="product.name"/>
             <div class="content">
                 <div class="color">Culoare: {{ product.color }}</div>
             </div>
             <div class="product-item-footer">
-               
                 <div><span>{{ product.price | currency }}</span></div>
             </div>
         </a>
