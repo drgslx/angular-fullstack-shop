@@ -3,6 +3,8 @@ div {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center; 
+    gap: 1rem;
+    border-radius: 100%;
   }
 a {
     font-size: 1.2rem;
